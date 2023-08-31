@@ -1,0 +1,46 @@
+{
+  "name": "crdt-experiment",
+  "version": "1.0.0",
+  "description": "A local-first weight tracking app, with super powers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/honungsburk/crdt-experiment.git"
+  },
+  "keywords": [
+    "crdt",
+    "local-first",
+    "react"
+  ],
+  "author": "Frank Hampus Weslien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honungsburk/crdt-experiment/issues"
+  },
+  "homepage": "https://github.com/honungsburk/crdt-experiment#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "immutable": "^5.0.0-beta.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-kawaii": "^0.18.0",
+    "react-router-dom": "^6.15.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.2.7",
+    "@types/react-kawaii": "^0.17.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-pwa": "^0.16.4",
+    "vitest": "^0.34.3"
+  }
+}
